@@ -1,0 +1,23 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+<script>
+    function fibonacci(limit) {
+    const arrnumeroDeElementos= [0, 1];
+    for (let i = 2; i <= limit; i++){
+        arrnumeroDeElementos.push(arrnumeroDeElementos[i - 1] + arrnumeroDeElementos[i - 2]);
+    }
+    return arrnumeroDeElementos;
+}
+    const numeroDeElementos = fibonacci(10);
+    console.log (numeroDeElementos);
+
+</script>
+        </body>
+        </html>
